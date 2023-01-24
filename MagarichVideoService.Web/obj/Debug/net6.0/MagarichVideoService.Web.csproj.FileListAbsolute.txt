@@ -24,3 +24,6 @@ C:\Users\kiril\source\repos\MagarichVideoService\MagarichVideoService.Web\obj\De
 C:\Users\kiril\source\repos\MagarichVideoService\MagarichVideoService.Web\obj\Debug\net6.0\MagarichVideoService.Web.pdb
 C:\Users\kiril\source\repos\MagarichVideoService\MagarichVideoService.Web\obj\Debug\net6.0\MagarichVideoService.Web.genruntimeconfig.cache
 C:\Users\kiril\source\repos\MagarichVideoService\MagarichVideoService.Web\obj\Debug\net6.0\ref\MagarichVideoService.Web.dll
+C:\Users\kiril\source\repos\MagarichVideoService\MagarichVideoService.Web\bin\Debug\net6.0\MagarichVideoService.Web.staticwebassets.runtime.json
+C:\Users\kiril\source\repos\MagarichVideoService\MagarichVideoService.Web\obj\Debug\net6.0\MagarichVideoService.Web.RazorAssemblyInfo.cache
+C:\Users\kiril\source\repos\MagarichVideoService\MagarichVideoService.Web\obj\Debug\net6.0\MagarichVideoService.Web.RazorAssemblyInfo.cs
