@@ -61,3 +61,113 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.header-container{
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-bottom: 1px solid white;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container .menubtn-logo-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 140px;
+}
+
+.header-container .menubtn-logo-container .menu-btn button{
+    width: 40px;
+    height: 40px;
+    background: none;
+    padding: 0px;
+    border: none;
+}
+
+.header-container .menubtn-logo-container .menu-btn button img{
+    width: 40px;
+    height: 40px;
+}
+
+.header-container .menubtn-logo-container .logo-item img{
+    width: 40px;
+    height: 40px;
+}
+
+.header-container .search-container{
+    display: flex;
+    align-items: center;
+}
+
+.header-container .search-container .search-input{
+    height: 38px;
+    width: 500px;
+    background-color: #121212;
+    border: 1px solid #303030;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header-container .search-container .search-input input{
+    background-color: #121212;
+    border: none;
+    height: 80%;
+    width: 100%;
+    margin-left: 9px;
+}
+
+.header-container .search-container .search-btn {
+    height: 40px;
+    width: 40px;
+    background-color: #222222;
+    border: 1px solid #303030;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.header-container .search-container .search-btn img{
+    margin: 8px;
+}
+
+.header-container .user-menu-container{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.header-container .user-menu-container button{
+    width: 40px;
+    height: 40px;
+    background: none;
+    padding: 0px;
+    border: none;
+}
+
+.header-container .user-menu-container button img{
+    width: 20px;
+    height: 20px;
+}
+
+.main-container{
+    width: auto;
+    height: auto;
+}
+
+.menu-container{
+    border-right: 1px solid white;
+    width: 72px;
+    position: fixed;
+    height: 100%;
+    top: 56px;
+    left: 0px;
+}
