@@ -68,7 +68,7 @@ a:hover {
     position: fixed;
     top: 0px;
     left: 0px;
-    border-bottom: 1px solid white;
+/*    border-bottom: 1px solid white;*/
 
     display: flex;
     justify-content: space-between;
@@ -81,17 +81,27 @@ a:hover {
     width: 140px;
 }
 
+.header-container .menubtn-logo-container .logo-item:hover{
+    cursor: pointer;
+}
+
 .header-container .menubtn-logo-container .menu-btn button{
     width: 40px;
     height: 40px;
     background: none;
     padding: 0px;
     border: none;
+    border-radius: 50px
 }
 
 .header-container .menubtn-logo-container .menu-btn button img{
     width: 40px;
     height: 40px;
+}
+
+.header-container .menubtn-logo-container .menu-btn button:hover{
+    cursor: pointer;
+    background-color: #272727;
 }
 
 .header-container .menubtn-logo-container .logo-item img{
@@ -121,6 +131,8 @@ a:hover {
     height: 80%;
     width: 100%;
     margin-left: 9px;
+    font-size: 18px;
+    color: #E2E2E2;
 }
 
 .header-container .search-container .search-btn {
@@ -133,6 +145,10 @@ a:hover {
     padding: 0px;
     display: flex;
     align-items: center;
+}
+
+.header-container .search-container .search-btn:hover{
+    cursor: pointer;
 }
 
 .header-container .search-container .search-btn img{
@@ -151,6 +167,12 @@ a:hover {
     background: none;
     padding: 0px;
     border: none;
+    border-radius: 50px;
+}
+
+.header-container .user-menu-container button:hover{
+    cursor: pointer;
+    background-color: #272727;
 }
 
 .header-container .user-menu-container button img{
@@ -164,10 +186,40 @@ a:hover {
 }
 
 .menu-container{
-    border-right: 1px solid white;
+/*    border-right: 1px solid white;*/
     width: 72px;
     position: fixed;
     height: 100%;
     top: 56px;
     left: 0px;
+}
+
+.menu-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+/*    margin: 15px 6px;*/
+    color: #F1F1F1;
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.menu-a:hover{
+    cursor: pointer;
+    text-decoration-line: none;
+    background-color: #272727;
+}
+
+.menu-a img{
+    width: 40px;
+    height: 40px;
+}
+
+.menu-container div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
