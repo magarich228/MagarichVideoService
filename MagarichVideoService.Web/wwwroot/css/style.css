@@ -109,6 +109,11 @@ a:hover {
     height: 40px;
 }
 
+.header-container .search-container{
+    display: flex;
+    align-items: center;
+}
+
 .header-container .search-container .search-form{
     display: flex;
     align-items: center;
