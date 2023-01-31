@@ -247,7 +247,6 @@ main{
 main .main-container{
     padding-top: 56px;
     padding-left: 72px;
-    overflow-y: hidden;
 }
 
 main .main-container .video-tags-container{
@@ -260,7 +259,7 @@ main .main-container .video-tags-container{
 main .main-container .content-container{
     display: flex;
     flex-flow: wrap;
-    z-index: -1;
+    padding-top: 56px;
 }
 
 main .main-container .content-container .content-card{
