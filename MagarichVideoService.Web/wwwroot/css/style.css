@@ -62,7 +62,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.header-container{
+header .header-container{
     height: 56px;
     width: 100%;
     position: fixed;
@@ -72,6 +72,7 @@ a:hover {
 
     display: flex;
     justify-content: space-between;
+    background-color: #0F0F0F;
 }
 
 .header-container .menubtn-logo-container{
@@ -185,25 +186,6 @@ a:hover {
     height: 20px;
 }
 
-main{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
-}
-
-main .main-container{
-    padding-top: 56px;
-    padding-left: 72px;
-    overflow-y: hidden;
-}
-
-main .main-container div{
-    width: 100px;
-    height: 80px;
-    background-color: aqua;
-}
-
 .menu-container{
 /*    border-right: 1px solid white;*/
     width: 72px;
@@ -232,8 +214,8 @@ main .main-container div{
 }
 
 .menu-a img{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .menu-container div{
@@ -253,4 +235,36 @@ body::-webkit-scrollbar-thumb{
     border: 4px solid transparent;
     background-clip: content-box;
     background-color: hsl(0,0%,67%);
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+main .main-container{
+    padding-top: 56px;
+    padding-left: 72px;
+    overflow-y: hidden;
+}
+
+main .main-container .video-tags-container{
+    width: 100%;
+    height: 56px;
+    background-color: aliceblue;
+    position: fixed;
+}
+
+main .main-container .content-container{
+    display: flex;
+    flex-flow: wrap;
+    z-index: -1;
+}
+
+main .main-container .content-container .content-card{
+    width: 300px;
+    height: 300px;
+    background-color: burlywood;
 }
