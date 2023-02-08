@@ -274,16 +274,83 @@ main .main-container .video-tags-container .video-tag:hover{
     background-color: #3F3F3F;
 }
 
-main .main-container .content-container{
+main .main-container .content-container {
     padding-top: 56px;
     display: grid;
-    grid-template-columns: repeat(6, 250px);
-    grid-area:revert;
     justify-content: center;
 }
 
-main .main-container .content-container .content-card{
-    min-height: 250px;
+main .main-container .content-container .content-card {
     border: 1px solid #3F3F3F;
     margin: 0px 8px 40px 8px;
+}
+
+@media (max-width: 539px){
+    main .main-container .content-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    main .main-container .content-container .content-card {
+        min-height: 150px;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 699px){
+    main .main-container .content-container {
+        grid-template-columns: repeat(3, 150px);
+    }
+
+    main .main-container .content-container .content-card {
+        min-height: 100px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 849px) {
+    main .main-container .content-container {
+        grid-template-columns: repeat(4, 150px);
+    }
+
+    main .main-container .content-container .content-card {
+        min-height: 150px;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 1099px) {
+    main .main-container .content-container {
+        grid-template-columns: repeat(3, 250px);
+    }
+
+    main .main-container .content-container .content-card {
+        min-height: 250px;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1399px) {
+    main .main-container .content-container {
+        grid-template-columns: repeat(4, 250px);
+    }
+
+    main .main-container .content-container .content-card {
+        min-height: 250px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1799px) {
+    main .main-container .content-container {
+        grid-template-columns: repeat(5, 250px);
+    }
+
+    main .main-container .content-container .content-card {
+        min-height: 250px;
+    }
+}
+
+@media (min-width: 1800px) {
+    main .main-container .content-container {
+        grid-template-columns: repeat(6, 0.5fr);
+    }
+
+    main .main-container .content-container .content-card {
+        min-height: 280px;
+    }
 }
