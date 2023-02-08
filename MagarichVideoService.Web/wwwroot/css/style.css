@@ -247,6 +247,7 @@ main{
 main .main-container{
     padding-top: 56px;
     padding-left: 72px;
+    padding-right: 20px;
 }
 
 main .main-container .video-tags-container{
@@ -258,14 +259,14 @@ main .main-container .video-tags-container{
 }
 
 main .main-container .video-tags-container .video-tag{
-    font-size: 1rem;
+    font-size: 1.2em;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.1);
     color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 5px;
+    padding: 5px 5px;
     margin: 10px 7px;
 }
 
@@ -274,14 +275,15 @@ main .main-container .video-tags-container .video-tag:hover{
 }
 
 main .main-container .content-container{
-    display: flex;
-    flex-flow: wrap;
-    
     padding-top: 56px;
+    display: grid;
+    grid-template-columns: repeat(6, 250px);
+    grid-area:revert;
+    justify-content: center;
 }
 
 main .main-container .content-container .content-card{
-    min-width: 250px;
     min-height: 250px;
-    border: 1px solid #ff6a00;
+    border: 1px solid #3F3F3F;
+    margin: 0px 8px 40px 8px;
 }
