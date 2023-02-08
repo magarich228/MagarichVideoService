@@ -80,10 +80,17 @@ header .header-container{
     justify-content: space-around;
     align-items: center;
     width: 140px;
+    margin-right: 10px;
 }
 
 .header-container .menubtn-logo-container .logo-item:hover{
     cursor: pointer;
+}
+
+@media (max-width: 370px){
+    .header-container .menubtn-logo-container .logo-item{
+        display: none;
+    }
 }
 
 .header-container .menubtn-logo-container .menu-btn button{
@@ -129,6 +136,30 @@ header .header-container{
     border-bottom-left-radius: 20px;
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 576px){
+    .header-container .search-container .search-form .search-input{
+        width: 100%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 830px){
+    .header-container .search-container .search-form .search-input {
+        max-width: 250px;
+    }
+}
+
+@media (min-width: 831px) and (max-width: 1799px){
+    .header-container .search-container .search-form .search-input {
+        width: 1fr;
+    }
+}
+
+@media (min-width: 1800px) {
+    .header-container .search-container .search-form .search-input {
+        width: 800px;
+    }
 }
 
 .header-container .search-container .search-form .search-input input{
