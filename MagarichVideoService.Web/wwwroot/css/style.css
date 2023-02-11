@@ -322,7 +322,12 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        min-height: 120px;
+        height: 150px;
+    }
+
+    main .main-container .content-container .content-card .video img{
+        width: 200px;
+        height: 112.5px;
     }
 }
 
@@ -332,7 +337,12 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        min-height: 150px;
+        height: 187.5px;
+    }
+
+    main .main-container .content-container .content-card .video img{
+        width: 250px;
+        height: 140.625px;
     }
 }
 
@@ -342,7 +352,12 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        min-height: 90px;
+        height: 120px;
+    }
+
+    main .main-container .content-container .content-card .video img{
+        width: 150px;
+        height: 84.375px;
     }
 }
 
@@ -352,7 +367,12 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        min-height: 90px;
+        height: 120px;
+    }
+
+    main .main-container .content-container .content-card .video img{
+        width: 150px;
+        height: 84.375px;
     }
 }
 
@@ -362,7 +382,12 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        min-height: 150px;
+        height: 187.5px;
+    }
+
+    main .main-container .content-container .content-card .video img{
+        width: 250px;
+        height: 140.625px;
     }
 }
 
@@ -372,7 +397,12 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        min-height: 150px;
+        height: 187.5px;
+    }
+
+    main .main-container .content-container .content-card .video img{
+        width: 250px;
+        height: 140.625px;
     }
 }
 
@@ -382,7 +412,12 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        min-height: 150px;
+        height: 187.5px;
+    }
+
+    main .main-container .content-container .content-card .video img{
+        width: 250px;
+        height: 140.625px;
     }
 }
 
@@ -392,14 +427,15 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        min-height: 168px;
+        height: 210px;
+    }
+
+    main .main-container .content-container .content-card .video img{
+        width: 280px;
+        height: 157.5px;
     }
 }
 
-main .main-container .content-container .content-card .video{
-
-}
-
-main .main-container .content-container .content-card .video img{
-    
+main .main-container .content-container .content-card .video {
+    color: #EAEAEA;
 }
