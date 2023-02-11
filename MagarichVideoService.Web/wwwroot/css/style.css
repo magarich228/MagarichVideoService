@@ -316,9 +316,19 @@ main .main-container .content-container .content-card {
     margin: 0px 8px 40px 8px;
 }
 
-@media (max-width: 539px){
+@media (max-width: 329px){
     main .main-container .content-container {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 200px);
+    }
+
+    main .main-container .content-container .content-card {
+        min-height: 120px;
+    }
+}
+
+@media (min-width: 330px) and (max-width: 539px){
+    main .main-container .content-container {
+        grid-template-columns: repeat(1, 250px);
     }
 
     main .main-container .content-container .content-card {
@@ -332,7 +342,7 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        min-height: 100px;
+        min-height: 90px;
     }
 }
 
@@ -342,7 +352,7 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        min-height: 150px;
+        min-height: 90px;
     }
 }
 
@@ -352,7 +362,7 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        min-height: 250px;
+        min-height: 150px;
     }
 }
 
@@ -362,7 +372,7 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        min-height: 250px;
+        min-height: 150px;
     }
 }
 
@@ -372,16 +382,24 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        min-height: 250px;
+        min-height: 150px;
     }
 }
 
 @media (min-width: 1800px) {
     main .main-container .content-container {
-        grid-template-columns: repeat(6, 0.5fr);
+        grid-template-columns: repeat(6, 280px);
     }
 
     main .main-container .content-container .content-card {
-        min-height: 280px;
+        min-height: 168px;
     }
+}
+
+main .main-container .content-container .content-card .video{
+
+}
+
+main .main-container .content-container .content-card .video img{
+    
 }
