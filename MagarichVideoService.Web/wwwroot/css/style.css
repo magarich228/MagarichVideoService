@@ -316,18 +316,67 @@ main .main-container .content-container .content-card {
     margin: 0px 8px 40px 8px;
 }
 
+main .main-container .content-container .content-card span {
+    color: #8F8F8F;
+}
+
+main .main-container .content-container .content-card .video {
+    display: block;
+}
+
+main .main-container .content-container .content-card .video img{
+    border-radius: 5px;
+}
+
+main .main-container .content-container .content-card .video-author {
+    color: #8F8F8F;
+    display: block;
+}
+
+main .main-container .content-container .content-card .video-data{
+    height: 15%;
+    display: flex;
+    color: #EAEAEA;
+    margin: 5px;
+}
+
+main .main-container .content-container .content-card .video-data a{
+    display: block;
+    margin-right: 10px;
+    overflow: hidden;
+    font-size: 1.2em;
+}
+
+main .main-container .content-container .content-card .video-data .video-author-img img{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+
+main .main-container .content-container .content-card .video-views, .video-date{
+}
+
 @media (max-width: 329px){
     main .main-container .content-container {
         grid-template-columns: repeat(1, 200px);
     }
 
     main .main-container .content-container .content-card {
-        height: 150px;
+        height: 180px;
     }
 
     main .main-container .content-container .content-card .video img{
         width: 200px;
         height: 112.5px;
+    }
+
+    main .main-container .content-container .content-card .video-data{
+        font-size: 9px;
+        height: 18%;
+    }
+
+    main .main-container .content-container .content-card .video-data .video-author-img img{
+        margin-right: 15px;
     }
 }
 
@@ -337,7 +386,7 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        height: 187.5px;
+        height: 210px;
     }
 
     main .main-container .content-container .content-card .video img{
@@ -352,12 +401,22 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        height: 120px;
+        height: 150px;
     }
 
     main .main-container .content-container .content-card .video img{
         width: 150px;
         height: 84.375px;
+    }
+
+    main .main-container .content-container .content-card .video-data{
+        font-size: 9px;
+    }
+
+    main .main-container .content-container .content-card .video-data .video-author-img img{
+        width: 25px;
+        height: 20px;
+        margin-right: 15px;
     }
 }
 
@@ -367,12 +426,22 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        height: 120px;
+        height: 150px;
     }
 
     main .main-container .content-container .content-card .video img{
         width: 150px;
         height: 84.375px;
+    }
+
+    main .main-container .content-container .content-card .video-data{
+        font-size: 9px;
+    }
+
+    main .main-container .content-container .content-card .video-data .video-author-img img{
+        width: 25px;
+        height: 20px;
+        margin-right: 15px;
     }
 }
 
@@ -382,7 +451,7 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        height: 187.5px;
+        height: 210px;
     }
 
     main .main-container .content-container .content-card .video img{
@@ -397,7 +466,7 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        height: 187.5px;
+        height: 210px;
     }
 
     main .main-container .content-container .content-card .video img{
@@ -412,7 +481,7 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        height: 187.5px;
+        height: 210px;
     }
 
     main .main-container .content-container .content-card .video img{
@@ -427,15 +496,11 @@ main .main-container .content-container .content-card {
     }
 
     main .main-container .content-container .content-card {
-        height: 210px;
+        height: 230px;
     }
 
     main .main-container .content-container .content-card .video img{
         width: 280px;
         height: 157.5px;
     }
-}
-
-main .main-container .content-container .content-card .video {
-    color: #EAEAEA;
 }
