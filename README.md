@@ -1,5 +1,6 @@
 # MagarichVideoService
 ## Services
+* API Gateway
 * Пользователи
 * Видео
 * Активности
