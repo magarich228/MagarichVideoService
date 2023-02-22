@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решен
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MagarichVideoServiceWeb", "MagarichVideoServiceWeb", "{9E377686-75E6-4F5F-888D-4F549AFD7666}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,7 +32,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{69EE3DD3-7B1B-479F-8487-2D59D7CF7E65} = {3F6378DF-956D-4D5D-8C9E-6EDE1EAE1D57}
-		{808BFBD1-B273-4841-94AA-D513C85AEF50} = {69EE3DD3-7B1B-479F-8487-2D59D7CF7E65}
+		{808BFBD1-B273-4841-94AA-D513C85AEF50} = {9E377686-75E6-4F5F-888D-4F549AFD7666}
+		{9E377686-75E6-4F5F-888D-4F549AFD7666} = {69EE3DD3-7B1B-479F-8487-2D59D7CF7E65}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E73AC631-7D45-45ED-B818-32A03F74D4FA}
