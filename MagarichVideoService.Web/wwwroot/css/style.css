@@ -312,8 +312,11 @@ main .main-container .content-container {
 }
 
 main .main-container .content-container .content-card {
-    border: 1px solid #3F3F3F;
     margin: 0px 8px 40px 8px;
+}
+
+main .main-container .content-container .content-card:hover{
+    cursor: pointer;
 }
 
 main .main-container .content-container .content-card span {
@@ -333,6 +336,10 @@ main .main-container .content-container .content-card .video-author {
     display: block;
 }
 
+main .main-container .content-container .content-card .video-author:hover{
+    cursor: pointer;
+}
+
 main .main-container .content-container .content-card .video-data{
     height: 15%;
     display: flex;
@@ -345,6 +352,10 @@ main .main-container .content-container .content-card .video-data a{
     margin-right: 10px;
     overflow: hidden;
     font-size: 1.2em;
+}
+
+main .main-container .content-container .content-card .video-data a:hover{
+    cursor: pointer;
 }
 
 main .main-container .content-container .content-card .video-data .video-author-img img{
