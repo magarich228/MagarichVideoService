@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Web\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Web\\wwwroot\\images\\Aspect-ratio-16x9.svg.png",
+      "PackagePath": "staticwebassets\\images\\Aspect-ratio-16x9.svg.png"
+    },
+    {
+      "Id": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Web\\wwwroot\\images\\ZR_rl8Q7Sd8.jpg",
+      "PackagePath": "staticwebassets\\images\\ZR_rl8Q7Sd8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Web\\wwwroot\\images\\cc628288-5ba6-4a86-8f79-a833315c674f.png",
+      "PackagePath": "staticwebassets\\images\\cc628288-5ba6-4a86-8f79-a833315c674f.png"
+    },
+    {
+      "Id": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Web\\wwwroot\\images\\home.svg",
+      "PackagePath": "staticwebassets\\images\\home.svg"
+    },
+    {
+      "Id": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Web\\wwwroot\\images\\libraries.svg",
+      "PackagePath": "staticwebassets\\images\\libraries.svg"
+    },
+    {
+      "Id": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Web\\wwwroot\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Web\\wwwroot\\images\\menu.svg",
+      "PackagePath": "staticwebassets\\images\\menu.svg"
+    },
+    {
+      "Id": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Web\\wwwroot\\images\\notifications.svg",
+      "PackagePath": "staticwebassets\\images\\notifications.svg"
+    },
+    {
+      "Id": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Web\\wwwroot\\images\\profile.svg",
+      "PackagePath": "staticwebassets\\images\\profile.svg"
+    },
+    {
+      "Id": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Web\\wwwroot\\images\\search.svg",
+      "PackagePath": "staticwebassets\\images\\search.svg"
+    },
+    {
+      "Id": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Web\\wwwroot\\images\\subscriptions.svg",
+      "PackagePath": "staticwebassets\\images\\subscriptions.svg"
+    },
+    {
+      "Id": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Web\\wwwroot\\images\\upload.svg",
+      "PackagePath": "staticwebassets\\images\\upload.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MagarichVideoService.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MagarichVideoService.Web.props",
+      "PackagePath": "build\\MagarichVideoService.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MagarichVideoService.Web.props",
+      "PackagePath": "buildMultiTargeting\\MagarichVideoService.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MagarichVideoService.Web.props",
+      "PackagePath": "buildTransitive\\MagarichVideoService.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

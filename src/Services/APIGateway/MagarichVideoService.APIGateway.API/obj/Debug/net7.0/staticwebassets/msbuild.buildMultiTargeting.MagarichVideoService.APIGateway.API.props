@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MagarichVideoService.APIGateway.API.props" />
+</Project>
