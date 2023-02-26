@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ah9IQ4YmJXiZWC2q8j6MDYtCv3yZE2qwgy+xA5472hhL6BkEgzQrcj9LwYx1IXOB4BH+VCjpa4KhRa4vPhlDAw==",
+  "dgSpecHash": "2GK5IXYTAUCNT/F7WVr14YH23EMwv79AYcmcc0dpYvmO7ZPcwYGzDDGFfToC/DQCPEjzKsGmw8dDwoTq4ii5zA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Web\\MagarichVideoService.Web.csproj",
+  "projectFilePath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\src\\Web\\MagarichVideoService.Web\\MagarichVideoService.Web.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

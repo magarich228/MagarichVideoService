@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VJzVWbX7y4RJJvpaolszRjEAQuP//vqyIPX7QTk1omTXyX7kI9/Kvzn+bE7zidV/JVscgUy78JXYRf0Q/K5yrA==",
+  "dgSpecHash": "oVUNjAHwKsd9ej2fPOtJZqCPEE7TN45LJiJQegJjmDQcu/Ue7rnDu4WdPAjFv0GnSnT5X+AxAiU4iEvKklvZ+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Users.UnitTests\\MagarichVideoService.Users.UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\src\\Services\\Users\\Tests\\MagarichVideoService.Users.UnitTests\\MagarichVideoService.Users.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kiril\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\kiril\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

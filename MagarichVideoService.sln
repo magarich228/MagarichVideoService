@@ -24,19 +24,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B6B2D745-2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabbitMQ", "RabbitMQ", "{D296783B-7B1A-4654-8D44-7F40D21CC333}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagarichVideoService.Users.API", "MagarichVideoService.Users.API\MagarichVideoService.Users.API.csproj", "{472E9148-5E0D-4B74-BE05-A20F0D059BC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagarichVideoService.Users.API", "MagarichVideoService.Users.API\MagarichVideoService.Users.API.csproj", "{472E9148-5E0D-4B74-BE05-A20F0D059BC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagarichVideoService.Users.DAL", "MagarichVideoService.Users.DAL\MagarichVideoService.Users.DAL.csproj", "{C9A2DB66-B984-4BEC-A39E-6DB7648D05E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagarichVideoService.Users.DAL", "MagarichVideoService.Users.DAL\MagarichVideoService.Users.DAL.csproj", "{C9A2DB66-B984-4BEC-A39E-6DB7648D05E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagarichVideoService.Users.Domain", "MagarichVideoService.Users.Domain\MagarichVideoService.Users.Domain.csproj", "{DD42307A-46D8-4917-8495-C46EFADEC605}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagarichVideoService.Users.Domain", "MagarichVideoService.Users.Domain\MagarichVideoService.Users.Domain.csproj", "{DD42307A-46D8-4917-8495-C46EFADEC605}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E3FB25BB-30DC-40E3-AC7D-E11BCE46AEDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagarichVideoService.Users.UnitTests", "MagarichVideoService.Users.UnitTests\MagarichVideoService.Users.UnitTests.csproj", "{252B3B39-66DF-4B2B-8DA5-57430C551962}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagarichVideoService.Users.UnitTests", "MagarichVideoService.Users.UnitTests\MagarichVideoService.Users.UnitTests.csproj", "{252B3B39-66DF-4B2B-8DA5-57430C551962}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIGateway", "APIGateway", "{44EA0E49-3B08-4260-BCFF-E3830C95A965}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagarichVideoService.APIGateway.API", "MagarichVideoService.APIGateway.API\MagarichVideoService.APIGateway.API.csproj", "{0B50E32F-E407-46B8-B66F-946ACD4F50D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagarichVideoService.APIGateway.API", "MagarichVideoService.APIGateway.API\MagarichVideoService.APIGateway.API.csproj", "{0B50E32F-E407-46B8-B66F-946ACD4F50D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagarichVideoService.Infrastructure.Core", "MagarichVideoService.Infrastructure.Core\MagarichVideoService.Infrastructure.Core.csproj", "{CAFB6873-E859-415B-8F1D-5297EBE58179}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,6 +70,10 @@ Global
 		{0B50E32F-E407-46B8-B66F-946ACD4F50D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B50E32F-E407-46B8-B66F-946ACD4F50D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B50E32F-E407-46B8-B66F-946ACD4F50D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAFB6873-E859-415B-8F1D-5297EBE58179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAFB6873-E859-415B-8F1D-5297EBE58179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAFB6873-E859-415B-8F1D-5297EBE58179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAFB6873-E859-415B-8F1D-5297EBE58179}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +92,7 @@ Global
 		{252B3B39-66DF-4B2B-8DA5-57430C551962} = {E3FB25BB-30DC-40E3-AC7D-E11BCE46AEDC}
 		{44EA0E49-3B08-4260-BCFF-E3830C95A965} = {69EE3DD3-7B1B-479F-8487-2D59D7CF7E65}
 		{0B50E32F-E407-46B8-B66F-946ACD4F50D8} = {44EA0E49-3B08-4260-BCFF-E3830C95A965}
+		{CAFB6873-E859-415B-8F1D-5297EBE58179} = {B6B2D745-2082-4048-B683-00313C52B09D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E73AC631-7D45-45ED-B818-32A03F74D4FA}

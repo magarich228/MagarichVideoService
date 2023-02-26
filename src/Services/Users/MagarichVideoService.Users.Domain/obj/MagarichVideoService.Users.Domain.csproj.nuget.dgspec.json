@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Users.Domain\\MagarichVideoService.Users.Domain.csproj": {}
+    "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\src\\Services\\Users\\MagarichVideoService.Users.Domain\\MagarichVideoService.Users.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Users.Domain\\MagarichVideoService.Users.Domain.csproj": {
+    "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\src\\Services\\Users\\MagarichVideoService.Users.Domain\\MagarichVideoService.Users.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Users.Domain\\MagarichVideoService.Users.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\src\\Services\\Users\\MagarichVideoService.Users.Domain\\MagarichVideoService.Users.Domain.csproj",
         "projectName": "MagarichVideoService.Users.Domain",
-        "projectPath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Users.Domain\\MagarichVideoService.Users.Domain.csproj",
+        "projectPath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\src\\Services\\Users\\MagarichVideoService.Users.Domain\\MagarichVideoService.Users.Domain.csproj",
         "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Users.Domain\\obj\\",
+        "outputPath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\src\\Services\\Users\\MagarichVideoService.Users.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

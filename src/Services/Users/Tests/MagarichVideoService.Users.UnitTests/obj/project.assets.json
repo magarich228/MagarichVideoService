@@ -6778,11 +6778,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Users.UnitTests\\MagarichVideoService.Users.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\src\\Services\\Users\\Tests\\MagarichVideoService.Users.UnitTests\\MagarichVideoService.Users.UnitTests.csproj",
       "projectName": "MagarichVideoService.Users.UnitTests",
-      "projectPath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Users.UnitTests\\MagarichVideoService.Users.UnitTests.csproj",
+      "projectPath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\src\\Services\\Users\\Tests\\MagarichVideoService.Users.UnitTests\\MagarichVideoService.Users.UnitTests.csproj",
       "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Users.UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\src\\Services\\Users\\Tests\\MagarichVideoService.Users.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

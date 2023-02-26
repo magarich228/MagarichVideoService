@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Users.DAL\\MagarichVideoService.Users.DAL.csproj": {}
+    "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\src\\Services\\Users\\MagarichVideoService.Users.DAL\\MagarichVideoService.Users.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Users.DAL\\MagarichVideoService.Users.DAL.csproj": {
+    "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\src\\Services\\Users\\MagarichVideoService.Users.DAL\\MagarichVideoService.Users.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Users.DAL\\MagarichVideoService.Users.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\src\\Services\\Users\\MagarichVideoService.Users.DAL\\MagarichVideoService.Users.DAL.csproj",
         "projectName": "MagarichVideoService.Users.DAL",
-        "projectPath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Users.DAL\\MagarichVideoService.Users.DAL.csproj",
+        "projectPath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\src\\Services\\Users\\MagarichVideoService.Users.DAL\\MagarichVideoService.Users.DAL.csproj",
         "packagesPath": "C:\\Users\\kiril\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Users.DAL\\obj\\",
+        "outputPath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\src\\Services\\Users\\MagarichVideoService.Users.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

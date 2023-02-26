@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "huvFsKDnn5RzxYHovNqlzINDHKf5V3nJiVc/oBiIAZ2K/k1rnnP+EZdO1tQhWjqf1ti78ausEw2BInnFBdy1ww==",
+  "dgSpecHash": "wu1vMJfFLk1ueyN9MMGiyiWtSSvULtTcU7vb8C31hLuw40erb47SOcHHhYUE6POYN8PTvMpHD+BJlTZm83R7uw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.Users.API\\MagarichVideoService.Users.API.csproj",
+  "projectFilePath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\src\\Services\\Users\\MagarichVideoService.Users.API\\MagarichVideoService.Users.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kiril\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\kiril\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0-preview.1.23111.4\\microsoft.entityframeworkcore.8.0.0-preview.1.23111.4.nupkg.sha512",

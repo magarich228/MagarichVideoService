@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MagarichVideoService.Users.UnitTests
-build_property.ProjectDir = C:\Users\kiril\source\repos\MagarichVideoService\MagarichVideoService.Users.UnitTests\
+build_property.ProjectDir = C:\Users\kiril\source\repos\MagarichVideoService\src\Services\Users\Tests\MagarichVideoService.Users.UnitTests\

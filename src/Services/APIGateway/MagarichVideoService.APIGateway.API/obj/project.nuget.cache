@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y/29/9U5sov3UQLS5fl3uOKIOatAE4ylpGEBOCaG/1f9rDcltZg5BlJkEXeg80uh2LwkFI+k2OBxiozfCAhoRw==",
+  "dgSpecHash": "hpPLv+jNmPQTmV2Z+T2O4lYA8o8oIGB1DlZEzbUtA0tvTO3qntfNbVluuBL4sa+TDTLzH4M7sptCj1HiLrpkEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\MagarichVideoService.APIGateway.API\\MagarichVideoService.APIGateway.API.csproj",
+  "projectFilePath": "C:\\Users\\kiril\\source\\repos\\MagarichVideoService\\src\\Services\\APIGateway\\MagarichVideoService.APIGateway.API\\MagarichVideoService.APIGateway.API.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
