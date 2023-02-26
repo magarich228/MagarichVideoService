@@ -34,6 +34,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E3FB25BB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagarichVideoService.Users.UnitTests", "MagarichVideoService.Users.UnitTests\MagarichVideoService.Users.UnitTests.csproj", "{252B3B39-66DF-4B2B-8DA5-57430C551962}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIGateway", "APIGateway", "{44EA0E49-3B08-4260-BCFF-E3830C95A965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagarichVideoService.APIGateway.API", "MagarichVideoService.APIGateway.API\MagarichVideoService.APIGateway.API.csproj", "{0B50E32F-E407-46B8-B66F-946ACD4F50D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,6 +64,10 @@ Global
 		{252B3B39-66DF-4B2B-8DA5-57430C551962}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{252B3B39-66DF-4B2B-8DA5-57430C551962}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{252B3B39-66DF-4B2B-8DA5-57430C551962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B50E32F-E407-46B8-B66F-946ACD4F50D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B50E32F-E407-46B8-B66F-946ACD4F50D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B50E32F-E407-46B8-B66F-946ACD4F50D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B50E32F-E407-46B8-B66F-946ACD4F50D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +84,8 @@ Global
 		{DD42307A-46D8-4917-8495-C46EFADEC605} = {9BFA44E6-A322-45D1-8D30-2D939EFD5D80}
 		{E3FB25BB-30DC-40E3-AC7D-E11BCE46AEDC} = {9BFA44E6-A322-45D1-8D30-2D939EFD5D80}
 		{252B3B39-66DF-4B2B-8DA5-57430C551962} = {E3FB25BB-30DC-40E3-AC7D-E11BCE46AEDC}
+		{44EA0E49-3B08-4260-BCFF-E3830C95A965} = {69EE3DD3-7B1B-479F-8487-2D59D7CF7E65}
+		{0B50E32F-E407-46B8-B66F-946ACD4F50D8} = {44EA0E49-3B08-4260-BCFF-E3830C95A965}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E73AC631-7D45-45ED-B818-32A03F74D4FA}
