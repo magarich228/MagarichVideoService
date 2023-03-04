@@ -1,5 +1,6 @@
 # MagarichVideoService
-## Services
+Реализация видеохостинга на микросервисной архитектуре с использованием RabbitMQ, Docker, EF Core, Redis, Consul, AutoMapper.
+## Rest Services
 * API Gateway
 * Пользователи
 * Видео
